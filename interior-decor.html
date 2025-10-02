@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Holiday Decor Partnership | Whistler Lights</title>
+    <meta name="description" content="Whistler Lights partners with Whistler Christmas Dream to offer bespoke interior holiday decor, including pre-decorated Christmas tree rentals, wreaths, and garlands.">
+    
+    <link rel="icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Whistler Lights",
+      "image": "https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756584703/ChatGPT_Image_Aug_6_2025_06_28_31_PM_fdgk6t.png",
+      "url": "https://www.whistlerlights.ca/", 
+      "telephone": "604-907-1640"
+    }
+    </script>
+</head>
+<body class="antialiased">
+    <div id="sparkle-container" class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-10"></div>
+
+    <header id="header" class="fixed w-full top-0 z-50 header-top">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" id="home-link">
+                <img src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756506744/WhistlerLightsBlacktrans_fikcuk.png" alt="Whistler Lights Logo" id="header-logo" class="h-16 w-auto">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <div class="relative group">
+                    <a href="/#services" class="text-gray-300 hover:text-yellow-400 transition flex items-center py-2">
+                        Services
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </a>
+                    <div class="absolute bg-gray-800 rounded-md shadow-lg py-2 w-56 dropdown-menu">
+                        <a href="/residential" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Residential Services</a>
+                        <a href="/commercial" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Commercial Services</a>
+                        <a href="/property-management" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Property Management</a>
+                        <a href="/weddings-events" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Weddings & Events</a>
+                        <a href="/interior-decor" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Interior Decor</a>
+                    </div>
+                </div>
+                <a href="/#about" class="text-gray-300 hover:text-yellow-400 transition">About</a>
+                <a href="/#gallery" class="text-gray-300 hover:text-yellow-400 transition">Showcase Work</a>
+                <a href="/#faq" class="text-gray-300 hover:text-yellow-400 transition">FAQ</a>
+                <a href="tel:604-907-1640" class="text-gray-300 hover:text-yellow-400 transition">604-907-1640</a>
+                <a href="/#contact" class="bg-yellow-400 text-gray-900 font-bold py-2 px-6 rounded-md hover:bg-yellow-500 transition">Free Estimate</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-white" aria-label="Open menu" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <div>
+                <button id="mobile-services-toggle" class="w-full text-left flex justify-between items-center py-2 text-gray-300 hover:text-yellow-400">
+                    <span>Services</span>
+                    <svg class="w-4 h-4 transition-transform duration-300" id="mobile-services-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div id="mobile-services-dropdown" class="hidden pl-4">
+                    <a href="/residential" class="block py-2 text-gray-300 hover:text-yellow-400">Residential Services</a>
+                    <a href="/commercial" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Commercial Services</a>
+                    <a href="/property-management" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Property Management</a>
+                    <a href="/weddings-events" class="block py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Weddings & Events</a>
+                    <a href="/interior-decor" class="block py-2 text-gray-300 hover:text-yellow-400">Interior Decor</a>
+                </div>
+            </div>
+            <a href="/#about" class="block py-2 text-gray-300 hover:text-yellow-400">About</a>
+            <a href="/#gallery" class="block py-2 text-gray-300 hover:text-yellow-400">Showcase Work</a>
+            <a href="/#faq" class="block py-2 text-gray-300 hover:text-yellow-400">FAQ</a>
+            <div class="mt-4 space-y-2">
+                <a href="/#contact" class="block w-full text-center bg-yellow-400 text-gray-900 font-bold py-3 px-6 rounded-md hover:bg-yellow-500 transition">Free Estimate</a>
+                <a href="tel:604-907-1640" class="block w-full text-center bg-transparent border-2 border-yellow-400 text-yellow-400 font-bold py-3 px-6 rounded-md hover:bg-yellow-400 hover:text-gray-900 transition">Call Us Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24">
+        <section class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="relative rounded-lg shadow-2xl mb-16 overflow-hidden h-64 bg-cover bg-center" style="background-image: url('https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585410/Screenshot_2025-08-15_10.33.20_PM_xof0xa.png');">
+                    <div class="absolute inset-0 bg-gray-900/60 flex items-center justify-center">
+                         <div class="text-center px-4">
+                            <h1 class="font-heading text-4xl md:text-5xl text-yellow-400 mb-2" tabindex="-1">Whistler Christmas Dream</h1>
+                            <p class="text-2xl text-gray-200 max-w-3xl mx-auto font-heading">Bespoke Interior Holiday Decor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-5xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12 text-lg text-gray-300">
+                        <div>
+                            <h2 class="font-heading text-3xl text-yellow-400 mb-4">Designer Trees & Decor</h2>
+                            <p class="mb-4">Whistler Christmas Dream specializes in creating breathtaking interior holiday experiences. From stunning, fully-decorated Christmas trees delivered to your door, to complete interior decor packages, they bring the magic of the season inside.</p>
+                            <ul class="list-disc list-inside mb-4 pl-4 space-y-2">
+                                <li>Pre-decorated Christmas Tree rental</li>
+                                <li>Custom interior design and styling</li>
+                                <li>Wreaths, garlands, and mantelpieces</li>
+                                <li>Complete setup and takedown</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="font-heading text-3xl text-yellow-400 mb-4">A Partnership in Excellence</h2>
+                            <p class="mb-4">While we at Whistler Lights perfect your home's exterior, we proudly partner with Whistler Christmas Dream for all your interior needs. They share our commitment to quality, luxury, and impeccable service for residential, commercial, and property management clients.</p>
+                            <p class="font-bold">To book your interior decor, please contact them directly:</p>
+                            <p class="mt-4"><a href="tel:604-966-4395" class="hover:text-yellow-400 transition">T 604.966.4395</a></p>
+                            <p><a href="mailto:whistlerchristmasdream@gmail.com" class="hover:text-yellow-400 transition">E whistlerchristmasdream@gmail.com</a></p>
+                            <a href="https://www.facebook.com/whistlerchristmasdream" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-gray-300 hover:text-yellow-400 transition mt-2">
+                                <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                                Facebook
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-20">
+                         <h3 class="font-heading text-3xl text-yellow-400 mb-8 text-center">Featured Interior Designs</h3>
+                         <div class="grid grid-cols-2 md:grid-cols-4 gap-4" data-gallery="interior">
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585408/Screenshot_2025-08-15_10.33.26_PM_lqbvno.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585408/Screenshot_2025-08-15_10.33.26_PM_lqbvno.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="Elegantly decorated Christmas tree with silver and white ornaments in a cozy living room." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585405/Screenshot_2025-08-15_10.33.41_PM_ar4vk7.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585405/Screenshot_2025-08-15_10.33.41_PM_ar4vk7.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="A festive Christmas mantelpiece adorned with green garland, pinecones, and white stockings." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585401/Screenshot_2025-08-15_10.33.52_PM_creceu.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585401/Screenshot_2025-08-15_10.33.52_PM_creceu.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="Close-up of a Christmas tree with intricate gold and champagne-colored ornaments." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585398/Screenshot_2025-08-15_10.34.07_PM_iqtyer.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585398/Screenshot_2025-08-15_10.34.07_PM_iqtyer.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="A grand Christmas tree with red and gold decorations standing in a luxurious home entryway." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585395/Screenshot_2025-08-15_10.34.21_PM_sajy39.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585395/Screenshot_2025-08-15_10.34.21_PM_sajy39.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="A beautiful holiday wreath with red berries and a plaid bow hanging on a wooden door." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585392/Screenshot_2025-08-15_10.34.34_PM_a140pp.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585392/Screenshot_2025-08-15_10.34.34_PM_a140pp.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="A fully decorated Christmas tree with a sparkling star topper next to a stone fireplace." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585390/Screenshot_2025-08-15_10.34.44_PM_al1jt6.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585390/Screenshot_2025-08-15_10.34.44_PM_al1jt6.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="Interior shot of a commercial space with multiple decorated Christmas trees and festive lighting." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585386/Screenshot_2025-08-15_10.34.59_PM_p9ndfg.png" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756585386/Screenshot_2025-08-15_10.34.59_PM_p9ndfg.png" class="rounded-lg shadow-lg aspect-square object-cover" alt="A rustic-themed Christmas tree with burlap ribbons and natural-looking ornaments." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                        </div>
+                    </div>
+
+                    <div class="mt-20 text-center space-y-4 md:space-y-0 md:space-x-4">
+                        <a href="https://www.whistlerchristmasdreams.com/" target="_blank" class="inline-block bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-lg hover:bg-yellow-500 transition-all duration-300 shadow-lg">Visit Whistler Christmas Dream</a>
+                        <a href="/#contact" class="inline-block bg-transparent border-2 border-yellow-400 text-yellow-400 font-bold py-3 px-8 rounded-lg hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300">Get an Outdoor Estimate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    </body>
+</html>
