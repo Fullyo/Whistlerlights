@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial & Municipal Holiday Lighting | Whistler Lights</title>
+    <meta name="description" content="Make your business, hotel, or municipality shine. We provide high-impact, professional holiday lighting solutions for commercial properties in Whistler, Squamish, and Vancouver.">
+    
+    <link rel="icon" href="/favicon.ico">
+
+    <link rel="stylesheet" href="/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Whistler Lights",
+      "image": "https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756584703/ChatGPT_Image_Aug_6_2025_06_28_31_PM_fdgk6t.png",
+      "url": "https://www.whistlerlights.ca/", 
+      "telephone": "604-907-1640"
+    }
+    </script>
+</head>
+<body class="antialiased">
+    <div id="sparkle-container" class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none z-10"></div>
+
+    <header id="header" class="fixed w-full top-0 z-50 header-top">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" id="home-link">
+                <img src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756506744/WhistlerLightsBlacktrans_fikcuk.png" alt="Whistler Lights Logo" id="header-logo" class="h-16 w-auto">
+            </a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <div class="relative group">
+                    <a href="/#services" class="text-gray-300 hover:text-yellow-400 transition flex items-center py-2">
+                        Services
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </a>
+                    <div class="absolute bg-gray-800 rounded-md shadow-lg py-2 w-56 dropdown-menu">
+                        <a href="/residential" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Residential Services</a>
+                        <a href="/commercial" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Commercial Services</a>
+                        <a href="/property-management" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Property Management</a>
+                        <a href="/weddings-events" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Weddings & Events</a>
+                        <a href="/interior-decor" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Interior Decor</a>
+                    </div>
+                </div>
+                <a href="/#about" class="text-gray-300 hover:text-yellow-400 transition">About</a>
+                <a href="/#gallery" class="text-gray-300 hover:text-yellow-400 transition">Showcase Work</a>
+                <a href="/#faq" class="text-gray-300 hover:text-yellow-400 transition">FAQ</a>
+                <a href="tel:604-907-1640" class="text-gray-300 hover:text-yellow-400 transition">604-907-1640</a>
+                <a href="/#contact" class="bg-yellow-400 text-gray-900 font-bold py-2 px-6 rounded-md hover:bg-yellow-500 transition">Free Estimate</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-white" aria-label="Open menu" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <div>
+                <button id="mobile-services-toggle" class="w-full text-left flex justify-between items-center py-2 text-gray-300 hover:text-yellow-400">
+                    <span>Services</span>
+                    <svg class="w-4 h-4 transition-transform duration-300" id="mobile-services-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
+                <div id="mobile-services-dropdown" class="hidden pl-4">
+                    <a href="/residential" class="block py-2 text-gray-300 hover:text-yellow-400">Residential Services</a>
+                    <a href="/commercial" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Commercial Services</a>
+                    <a href="/property-management" class="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Property Management</a>
+                    <a href="/weddings-events" class="block py-2 text-gray-300 hover:bg-gray-700 hover:text-yellow-400">Weddings & Events</a>
+                    <a href="/interior-decor" class="block py-2 text-gray-300 hover:text-yellow-400">Interior Decor</a>
+                </div>
+            </div>
+            <a href="/#about" class="block py-2 text-gray-300 hover:text-yellow-400">About</a>
+            <a href="/#gallery" class="block py-2 text-gray-300 hover:text-yellow-400">Showcase Work</a>
+            <a href="/#faq" class="block py-2 text-gray-300 hover:text-yellow-400">FAQ</a>
+            <div class="mt-4 space-y-2">
+                <a href="/#contact" class="block w-full text-center bg-yellow-400 text-gray-900 font-bold py-3 px-6 rounded-md hover:bg-yellow-500 transition">Free Estimate</a>
+                <a href="tel:604-907-1640" class="block w-full text-center bg-transparent border-2 border-yellow-400 text-yellow-400 font-bold py-3 px-6 rounded-md hover:bg-yellow-400 hover:text-gray-900 transition">Call Us Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24">
+         <section class="py-20">
+             <div class="container mx-auto px-6">
+                <div class="relative rounded-lg shadow-2xl mb-16 overflow-hidden h-64 bg-cover bg-center" style="background-image: url('https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-blackcomb-springs-suites-hotel_dm6wis.jpg');">
+                    <div class="absolute inset-0 bg-gray-900/60 flex items-center justify-center">
+                         <div class="text-center px-4">
+                            <h1 class="font-heading text-4xl md:text-5xl text-yellow-400 mb-4" tabindex="-1">Commercial & Municipal Services</h1>
+                            <p class="text-lg text-gray-200 max-w-3xl mx-auto">Make your business or community shine and stand out this holiday season.</p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="max-w-5xl mx-auto">
+                    <div class="mb-20 text-center">
+                        <h2 class="font-heading text-4xl text-yellow-400 mb-4">The Whistler Lights Promise</h2>
+                        <p class="text-lg text-gray-300 max-w-3xl mx-auto">Our comprehensive approach ensures a brilliant, hassle-free experience from start to finish.</p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center mt-12 stagger-container">
+                            <div class="bg-gray-800/50 rounded-xl p-8 shadow-2xl border border-gray-700 card-glow stagger-item text-left md:text-center flex flex-col items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-yellow-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                                <h3 class="font-heading text-2xl text-white mb-2">High-Impact Commercial Displays</h3>
+                                <p class="text-gray-400">We create memorable displays for businesses and municipalities that attract visitors and create a festive atmosphere.</p>
+                            </div>
+                            <div class="bg-gray-800/50 rounded-xl p-8 shadow-2xl border border-gray-700 card-glow stagger-item text-left md:text-center flex flex-col items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-yellow-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                                <h3 class="font-heading text-2xl text-white mb-2">Equipped for Any Scale</h3>
+                                <p class="text-gray-400">With our in-house boom lift and certified team, no project is too large or too complex, from tall facades to large-scale tree wrapping.</p>
+                            </div>
+                            <div class="bg-gray-800/50 rounded-xl p-8 shadow-2xl border border-gray-700 card-glow stagger-item text-left md:text-center flex flex-col items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-yellow-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg>
+                                <h3 class="font-heading text-2xl text-white mb-2">A Reliable Professional Partner</h3>
+                                <p class="text-gray-400">We guarantee your lights will be fully functional all season, with a one-year product warranty and our commitment to your complete satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mb-16">
+                        <h2 class="font-heading text-4xl text-yellow-400 mb-4">Our Commercial & Municipal Services Include:</h2>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-x-8 gap-y-4 text-lg">
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <p><span class="font-bold">High-Impact Designs:</span> Create a memorable, festive atmosphere that attracts customers and delights the community.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <p><span class="font-bold">Large-Scale Installations:</span> We are equipped for large trees, building facades, public spaces, and streetscapes.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <p><span class="font-bold">Specialty Decor:</span> Services include pole-mounted decorations, custom banners, and large-scale wreaths and displays.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <p><span class="font-bold">Safety & Compliance:</span> Our team is fully insured, certified, and experienced in working in public and commercial environments.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <p><span class="font-bold">Priority Maintenance:</span> We offer prompt service to ensure your display remains perfect throughout the busy holiday season.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <p><span class="font-bold">Scheduled Takedown:</span> We'll work with you to schedule a takedown that minimizes disruption to your business or community.</p>
+                        </div>
+                    </div>
+
+                      <div class="mt-20">
+                         <h3 class="font-heading text-3xl text-yellow-400 mb-8 text-center">Featured Commercial Projects</h3>
+                         <div class="grid grid-cols-2 sm:grid-cols-3 gap-6" data-gallery="commercial">
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-blackcomb-springs-suites-hotel_dm6wis.jpg" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-blackcomb-springs-suites-hotel_dm6wis.jpg" class="rounded-lg shadow-lg aspect-square object-cover" alt="The entrance to Blackcomb Springs Suites hotel lit with warm white holiday lights." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583378/whistler-christmas-lights-commercial-hilton-shops_x9afzw.jpg" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583378/whistler-christmas-lights-commercial-hilton-shops_x9afzw.jpg" class="rounded-lg shadow-lg aspect-square object-cover" alt="Storefronts at the Hilton hotel decorated with festive Christmas lights." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583379/whistler-christmas-lights-commercial-hilton-grand-vacation_ihmpsp.jpg" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583379/whistler-christmas-lights-commercial-hilton-grand-vacation_ihmpsp.jpg" class="rounded-lg shadow-lg aspect-square object-cover" alt="The Hilton Grand Vacations building entrance lit up for the holidays." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-hilton-grand-vacation22_kitzzz.jpg" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-hilton-grand-vacation22_kitzzz.jpg" class="rounded-lg shadow-lg aspect-square object-cover" alt="Wide shot of the Hilton hotel with extensive holiday lighting." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-peak-provisions-restaurant_fpa3ge.jpg" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583377/whistler-christmas-lights-commercial-peak-provisions-restaurant_fpa3ge.jpg" class="rounded-lg shadow-lg aspect-square object-cover" alt="Peak Provisions restaurant with elegant white lights on its exterior." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                            <a href="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583420/whistler-christmas-lights-property-managers-thevillas_auphwg.jpg" class="gallery-item"><img loading="lazy" src="https://res.cloudinary.com/dvdxbzv6a/image/upload/v1756583420/whistler-christmas-lights-property-managers-thevillas_auphwg.jpg" class="rounded-lg shadow-lg aspect-square object-cover" alt="The Villas property entrance with festive holiday lighting." onerror="this.onerror=null;this.src='https://placehold.co/400x400/0a192f/e6f1ff?text=Image+Not+Found';"></a>
+                        </div>
+                    </div>
+
+                    <div class="mt-20">
+                        <h3 class="font-heading text-3xl text-yellow-400 mb-8 text-center">What Businesses Say</h3>
+                        <div class="max-w-2xl mx-auto bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 shadow-2xl border border-gray-700 card-glow">
+                             <p class="text-gray-300 mb-4 text-xl italic">“Whistler Lights does a great service of making our hotel look very festive each year. Hilton Grand Vacations Club will continue to use their services, as they do a great job.”</p>
+                             <div class="font-bold text-yellow-400 text-right">- Donna Moore, Hilton Grand Vacations Operations Coordinator, Whistler.</div>
+                        </div>
+                    </div>
+
+                    <div class="mt-20 text-center space-y-4 md:space-y-0 md:space-x-4">
+                        <a href="/#contact" class="inline-block bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-lg hover:bg-yellow-500 transition-all duration-300 shadow-lg">Get a Free Estimate</a>
+                        <a href="tel:604-907-1640" class="inline-block bg-transparent border-2 border-yellow-400 text-yellow-400 font-bold py-3 px-8 rounded-lg hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300">Call Us Now</a>
+                    </div>
+                </div>
+            </div>
+         </section>
+    </main>
+    
+    </body>
+</html>
