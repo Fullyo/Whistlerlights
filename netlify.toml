@@ -1,0 +1,6 @@
+# Netlify Configuration
+# This rule makes URLs like /residential work without needing .html
+[[redirects]]
+  from = "/*"
+  to = "/:splat.html"
+  status = 200
